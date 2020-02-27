@@ -21,16 +21,16 @@ p {
   text-align: center;
 }
 
-.box1, .box2, .box3, .box4 {
+.box {
   width: 90%;
   margin: 0 auto;
   padding: 0.625em;
 }
 
-.box2 {
+.box {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
 }
