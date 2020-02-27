@@ -1,1 +1,19 @@
+html {
+  line-height: 1.2em;
+}
 
+body {
+  padding: 0.625em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  margin: 0 auto;
+  text-align: center;
+}
