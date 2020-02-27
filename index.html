@@ -137,8 +137,12 @@
         </div>
       </div>
       <div>
-        <p><input type="submit" id="join" class="fontsize" value="Join Today!" /></p>
+        <p><input id="demo" onclick="myFunction()" type="submit" class="fontsize" value="Join Today!" /></p>
       </div>
     </form>
+    <script>
+      function myFunction() {
+       document.getElementById("demo").style.color = "red";
+    </script>
   </body>
 </html>
