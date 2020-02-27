@@ -34,11 +34,3 @@ p {
   align-items: center;
   flex-wrap: nowrap;
 }
-
-.box2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  flex-wrap: nowrap;
-}
