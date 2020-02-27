@@ -11,7 +11,7 @@
       Association (RMIA). We depend on your membership contributions to do our work throughout the year. Annual membership runs from 
       November through October, but you are welcome to join or renew at any time. Make a contribution that is significant to you!</p>
     <form method="GET" autocomplete="on" action="#null" enctype="multipart/form-data">
-      <div>
+      <div class="box1">
         <label>Membership Level: </label>
         <select name="level_field">
           <option value="blank">Select your membership level</option>
@@ -20,113 +20,117 @@
           <option value="$100 - Donor">$100 - Donor</option>
         </select>
       </div>
-      <div>
-        <label class="fontsize" for="fname">First Name:</label>
-        <input type="text" id="fname" class="fontsize" name="first_name_field" placeholder="First Name" />
+      <div class="box2">
+        <div>
+          <label class="fontsize" for="fname">First Name:</label>
+          <input type="text" id="fname" class="fontsize" name="first_name_field" placeholder="First Name" />
+        </div>
+        <div>
+          <label class="fontsize" for="lname">Last Name:</label>
+          <input type="text" id="lname" class="fontsize" name="last_name_field" placeholder="Last Name" />
+        </div>
+        <div>
+          <label class="fontsize" for="address">Street Address:</label>
+          <input type="text" name="address_field" placeholder="Street Address" />
+        </div>
+        <div>
+          <label class="fontsize" for="address">Apartment Number:</label>
+          <input type="text" name="apt_field" placeholder="Apartment Number" />
+        </div>
+        <div>
+          <label class="fontsize" for="address">City:</label>
+          <input type="text" name="city_field" placeholder="City" />
+        </div>
+        <div>
+          <label>State: </label>
+          <select name="state_field">
+            <option value="blank">Please make selection</option>
+            <option value="AK">AK</option>
+            <option value="AL">AL</option>
+            <option value="AR">AR</option>
+            <option value="AZ">AZ</option>
+            <option value="CA">CA</option>
+            <option value="CO">CO</option>
+            <option value="CT">CT</option>
+            <option value="DE">DE</option>
+            <option value="FL">FL</option>
+            <option value="GA">GA</option>
+            <option value="HI">HI</option>
+            <option value="IA">IA</option>
+            <option value="ID">ID</option>
+            <option value="IL">IL</option>
+            <option value="IN">IN</option>
+            <option value="KS">KS</option>
+            <option value="KY">KY</option>
+            <option value="LA">LA</option>
+            <option value="MA">MA</option>
+            <option value="MD">MD</option>
+            <option value="ME">ME</option>
+            <option value="MI">MI</option>
+            <option value="MN">MN</option>
+            <option value="MO">MO</option>
+            <option value="MS">MS</option>
+            <option value="MT">MT</option>
+            <option value="NC">NC</option>
+            <option value="ND">ND</option>
+            <option value="NE">NE</option>
+            <option value="NH">NH</option>
+            <option value="NJ">NJ</option>
+            <option value="NM">NM</option>
+            <option value="NV">NV</option>
+            <option value="NY">NY</option>
+            <option value="OH">OH</option>
+            <option value="OK">OK</option>
+            <option value="OR">OR</option>
+            <option value="PA">PA</option>
+            <option value="RI">RI</option>
+            <option value="SC">SC</option>
+            <option value="SD">SD</option>
+            <option value="TN">TN</option>
+            <option value="TX">TX</option>
+            <option value="UT">UT</option>
+            <option value="VA">VA</option>
+            <option value="VT">VT</option>
+            <option value="WA">WA</option>
+            <option value="WI">WI</option>
+            <option value="WV">WV</option>
+            <option value="WY">WY</option>
+          </select>
+        </div>
+        <div>
+          <label class="fontsize" for="zip">Zip Code:</label>
+          <input type="text" name="zip_field" placeholder="Zip Code" />
+        </div>
+        <div>
+          <label class="fontsize" for="email">Email Address:</label>
+          <input type="email" id="email" class="fontsize" name="email_field" placeholder="Email" />
+        </div>
+        <div>
+          <label class="fontsize" for="phnum">Phone Number:</label>
+          <input type="text" id="phnum" class="fontsize" name="phone_field" placeholder="Phone Number" />
+        </div>
       </div>
-      <div>
-        <label class="fontsize" for="lname">Last Name:</label>
-        <input type="text" id="lname" class="fontsize" name="last_name_field" placeholder="Last Name" />
-      </div>
-      <div>
-        <label class="fontsize" for="address">Street Address:</label>
-        <input type="text" name="address_field" placeholder="Street Address" />
-      </div>
-      <div>
-        <label class="fontsize" for="address">Apartment Number:</label>
-        <input type="text" name="apt_field" placeholder="Apartment Number" />
-      </div>
-      <div>
-        <label class="fontsize" for="address">City:</label>
-        <input type="text" name="city_field" placeholder="City" />
-      </div>
-      <div>
-        <label>State: </label>
-        <select name="state_field">
-          <option value="blank">Please make selection</option>
-          <option value="AK">AK</option>
-          <option value="AL">AL</option>
-          <option value="AR">AR</option>
-          <option value="AZ">AZ</option>
-          <option value="CA">CA</option>
-          <option value="CO">CO</option>
-          <option value="CT">CT</option>
-          <option value="DE">DE</option>
-          <option value="FL">FL</option>
-          <option value="GA">GA</option>
-          <option value="HI">HI</option>
-          <option value="IA">IA</option>
-          <option value="ID">ID</option>
-          <option value="IL">IL</option>
-          <option value="IN">IN</option>
-          <option value="KS">KS</option>
-          <option value="KY">KY</option>
-          <option value="LA">LA</option>
-          <option value="MA">MA</option>
-          <option value="MD">MD</option>
-          <option value="ME">ME</option>
-          <option value="MI">MI</option>
-          <option value="MN">MN</option>
-          <option value="MO">MO</option>
-          <option value="MS">MS</option>
-          <option value="MT">MT</option>
-          <option value="NC">NC</option>
-          <option value="ND">ND</option>
-          <option value="NE">NE</option>
-          <option value="NH">NH</option>
-          <option value="NJ">NJ</option>
-          <option value="NM">NM</option>
-          <option value="NV">NV</option>
-          <option value="NY">NY</option>
-          <option value="OH">OH</option>
-          <option value="OK">OK</option>
-          <option value="OR">OR</option>
-          <option value="PA">PA</option>
-          <option value="RI">RI</option>
-          <option value="SC">SC</option>
-          <option value="SD">SD</option>
-          <option value="TN">TN</option>
-          <option value="TX">TX</option>
-          <option value="UT">UT</option>
-          <option value="VA">VA</option>
-          <option value="VT">VT</option>
-          <option value="WA">WA</option>
-          <option value="WI">WI</option>
-          <option value="WV">WV</option>
-          <option value="WY">WY</option>
-        </select>
-      </div>
-      <div>
-        <label class="fontsize" for="zip">Zip Code:</label>
-        <input type="text" name="zip_field" placeholder="Zip Code" />
-      </div>
-      <div>
-        <label class="fontsize" for="email">Email Address:</label>
-        <input type="email" id="email" class="fontsize" name="email_field" placeholder="Email" />
-      </div>
-      <div>
-        <label class="fontsize" for="phnum">Phone Number:</label>
-        <input type="text" id="phnum" class="fontsize" name="phone_field" placeholder="Phone Number" />
-      </div>
-      <div>
-        <label>Credit Card Number: </label>
-        <input type="text" id="phnum" class="fontsize" name="phone_field" placeholder="XXXX XXXX XXXX XXXX" />
-      </div>
-      <div>
-        <label>Expiration Date: </label>
-        <input type="text" id="phnum" class="fontsize" name="phone_field" placeholder="MM/YY" />
-      </div>
-      <div>
-        <label>CVV: </label>
-        <input type="text" id="phnum" class="fontsize" name="phone_field" placeholder="CVV" />
-      </div>
-      <div>
-        <input type="checkbox" name="available_field[]" checked>
-        <label>I would like to subscribe to RMIA monthly newsletter.</label>
-      </div>
-      <div>
-        <input type="checkbox" name="available_field[]" checked>
-        <label>I would like to receive notifications for future RMIA volunteer opportunities.</label>
+      <div class="box3">
+        <div>
+          <label>Credit Card Number: </label>
+          <input type="text" id="phnum" class="fontsize" name="phone_field" placeholder="XXXX XXXX XXXX XXXX" />
+        </div>
+        <div>
+          <label>Expiration Date: </label>
+          <input type="text" id="phnum" class="fontsize" name="phone_field" placeholder="MM/YY" />
+        </div>
+        <div>
+          <label>CVV: </label>
+          <input type="text" id="phnum" class="fontsize" name="phone_field" placeholder="CVV" />
+        </div>
+        <div>
+          <input type="checkbox" name="available_field[]" checked>
+          <label>I would like to subscribe to RMIA monthly newsletter.</label>
+        </div>
+        <div>
+          <input type="checkbox" name="available_field[]" checked>
+          <label>I would like to receive notifications for future RMIA volunteer opportunities.</label>
+        </div>
       </div>
       <div>
         <p><input type="submit" id="join" class="fontsize" value="Join Today!" /></p>
