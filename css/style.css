@@ -35,10 +35,16 @@ p {
   flex-wrap: nowrap;
 }
 
-.float-container {
+.float_container {
   border: solid 1px #ccc;
+  position: relative;
 }
-.float-container input {
+
+.float_container input {
   border: none;
   outline: 0;
+}
+
+label {
+  position: absolute;
 }
