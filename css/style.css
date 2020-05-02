@@ -34,3 +34,11 @@ p {
   align-items: center;
   flex-wrap: nowrap;
 }
+
+.float-container {
+  border: solid 1px #ccc;
+}
+.float-container input {
+  border: none;
+  outline: 0;
+}
