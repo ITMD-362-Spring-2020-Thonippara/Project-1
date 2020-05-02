@@ -51,7 +51,9 @@ p {
 label {
   position: absolute;
   font-size: 16px;
+  transform-origin: top left;
   transform: translate(0, 16px) scale(1);
+  transition: all .1s ease-in-out;
 }
 
 .float_container.active label {
